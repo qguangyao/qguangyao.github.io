@@ -2,13 +2,54 @@
 <html lang="utf-8">
 <head>
     <meta charset="UTF-8">
-    <title>齐广耀的主页</title>
-    <link rel="stylesheet" href="./css/mycss.css">
+    <title>从浅尝辄止开始</title>
+    <link rel="stylesheet" href="css/classcss.css">
+    <!--<link rel="stylesheet" href="css/idcss.css">-->
+    <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico"/>
+    <script type="text/javascript" src="./javascript/jquery3.3.1.js"></script>
+    <script type="text/javascript" src="./javascript/myfunctions.js"></script>
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <script src="http://ip.ws.126.net/ipquery"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            let ip = returnCitySN['cip'];
+            document.getElementById("IP").innerText = ip;
+            document.getElementById("mycity").innerText = localAddress.city;
+            document.getElementById("myprovince").innerText = localAddress.province;
+        }
+
+        function myalert() {
+
+        }
+    </script>
+
 </head>
 <body>
 <div class="title">
-    <div class="titleContent"><h1 onmouseover="this.className='titleTextin'" onmouseout="this.className='titleTextout'" class="titleText">我的GitHub目录</h1></div>
+    <div class="titleContent">
+        <h1 onclick="myalert()" onmouseover="this.className='titleTextin'"
+            onmouseout="this.className='titleTextout'"
+            class="titleText">
+            不求甚解，从一个主页开始</h1>
+
     </div>
-<div class="normal"><h1>目前这里啥也没有，等我写好了再跟你们显摆～</h1></div>
+</div>
+<table class="basic">
+    <tr >
+        <th>省份</th>
+        <th><label id="myprovince" class="norTex"><h4>1</h4></label></th>
+    </tr>
+    <tr>
+        <th>城市</th>
+        <th><label id="mycity" class="norTex"><h4>1</h4></label></th>
+    </tr>
+    <tr>
+        <th>ip</th>
+        <th><label id="IP" class="normal"><h4>1</h4></label></th>
+    </tr>
+
+</table>
+
+
 </body>
 </html>

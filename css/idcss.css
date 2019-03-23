@@ -1,0 +1,12 @@
+/*#city{*/
+    /*width: fit-content;*/
+    /*height: fit-content;*/
+    /*position: relative;*/
+    /*right: 0%;*/
+    /*top: 0rem;*/
+/*}*/
+#ip{
+    float: right;
+    position: absolute;
+    left: 90%;
+}
