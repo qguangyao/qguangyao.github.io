@@ -37,63 +37,28 @@ body {
     text-align: center;
     line-height: 60px;
     cursor: pointer;
-}
-
-.titleTextout {
     transition: all 0.2s;
     transform: scale(1);
-    margin: 0;
-    padding: 0;
-    width: fit-content;
-    height: fit-content;
-    color: #ffffff;
-    text-align: center;
-    line-height: 60px;
-    cursor: pointer;
 }
 
-.titleTextin {
-    transition: all 0.2s;
+.titleText:hover {
     transform: scale(1.1);
-    margin: 0;
-    padding: 0;
-    width: fit-content;
-    height: fit-content;
-    color: #ffffff;
-    text-align: center;
-    line-height: 60px;
-    cursor: pointer;
 }
 
 label.norTex {
     margin: 0;
     padding: 0;
-    width: fit-content;
-    height: fit-content;
     color: #000000;
     text-align: center;
     cursor: pointer;
+    transition: all 0.2s;
+    transform: scale(1);
 }
 
-label.norTexIn {
-    transition: all 0.2s;
+label.norTex:hover {
     transform: scale(1.1);
     margin: 0;
     padding: 0;
-    width: fit-content;
-    height: fit-content;
-    color: #000000;
-    text-align: center;
-    cursor: pointer;
-}
-
-label.norTexOut {
-    transition: all 0.2s;
-    transform: scale(1);
-    margin: 0;
-    padding: 0;
-    width: fit-content;
-    height: fit-content;
     color: #000000;
     text-align: center;
     cursor: pointer;
