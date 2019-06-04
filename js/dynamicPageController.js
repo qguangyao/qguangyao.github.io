@@ -14,3 +14,17 @@ function initSideBar() {
     sideBarContent.innerHTML += "<li><a id='myResume' href='../pages/myResume.html'>我的简历</a></li>";
     document.getElementById(id).className = "active"
 }
+
+function initCube() {
+    document.getElementById("cubeContent").innerHTML="<div class='wrap'>\n" +
+        "        <div class='cube'>\n" +
+        "            <div class='out_front'><img src='https://files-cdn.cnblogs.com/files/cjsblog/cube01.bmp' class='pic'></div>\n" +
+        "            <div class='out_back'><img src='https://files-cdn.cnblogs.com/files/cjsblog/cube02.bmp' class='pic'></div>\n" +
+        "            <div class='out_left'><img src='https://files-cdn.cnblogs.com/files/cjsblog/cube03.bmp' class='pic'></div>\n" +
+        "            <div class='out_right'><img src='https://files-cdn.cnblogs.com/files/cjsblog/cube04.bmp' class='pic'></div>\n" +
+        "            <div class='out_top'><img src='https://files-cdn.cnblogs.com/files/cjsblog/cube05.bmp' class='pic'></div>\n" +
+        "            <div class='out_bottom'><img src='https://files-cdn.cnblogs.com/files/cjsblog/cube06.bmp' class='pic'>\n" +
+        "            </div>\n" +
+        "        </div>\n" +
+        "    </div>"
+}
