@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico"/>
-    <link rel="stylesheet" href="css/animations.css">
-    <link rel="stylesheet" href="css/qcss.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../icons/favicon.ico"/>
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/qcss.css"/>
+    <script type="text/javascript" src="../js/dynamicPageController.js"></script>
     <title>☆齐天☆的个人空间</title>
     <style>
         * {
@@ -21,21 +22,21 @@
 </header>
 <main>
     <ul id="sideBarContent" class="sideBar">
-        <li><a href="index.html" class="active"> 首页</a></li>
-        <li><a href="https://github.com/qguangyao" target="_blank">我的github</a></li>
-        <li><a href="pages/favoriteWebsite.html" >我的常用网站</a></li>
-        <li><a href="pages/myResume.html">我的简历</a></li>
+
     </ul>
+    <script>
+        initSideBar();
+    </script>
     <div class="container verticalCenter">
         <div class="card">
-            There will be anything I like～
+            There will be my resume～
         </div>
     </div>
 </main>
 <footer id="footer" class="footer">Copyright ©2019 ☆齐天☆
 </footer>
 <script>
-    document.getElementById("footer").innerText="Copyright ©"+new Date().getFullYear()+" ☆齐天☆"
+    document.getElementById("footer").innerText = "Copyright ©" + new Date().getFullYear() + " ☆齐天☆"
 </script>
 <div>
     <div class="wrap">
